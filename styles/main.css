@@ -3,7 +3,7 @@
 }
 html {
   font-size: 62.5%;
-  width: 960px;
+  max-width: 960px;
   margin: auto;
 }
 body {
@@ -110,6 +110,27 @@ h3 {
   text-align: center;
 }
 .contacto {
+  padding: 40px 100px 80px;
   background-color: #16a085;
 }
+.contacto input{
+  
+  height: 60px;
+  width: 47.5%;
+  margin-bottom: 35px;
+  margin-right: -1.5px;
+  padding-left: 10px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.contacto input:nth-child(odd) {
+  margin-right: 4%;
+}
+.contacto textarea{
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 22px;
+  font-family: "Roboto", sans-serif;
+}
+
 
