@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <main>
+    <main class="main">
       <section class="banner">
         <img src="./images/fondo.png" alt="Fondo" />
         <h1 class="titulo">codigo</h1>
@@ -23,7 +23,7 @@
       </section>
       <section class="my_skills">
         <h2>My skills</h2>
-        <div class="items_skills">
+        <div class="items">
           <div class="item">
             <h3>Html</h3>
             <div class="bar">
@@ -76,34 +76,36 @@
       </section>
       <section class="servicios">
         <h2>Servicios</h2>
-        <div class="item">
-          <img src="./images/check.png" alt="check" />
-          <h3>Diseño web</h3>
-        </div>
-        <div class="item">
-          <img src="./images/check.png" alt="check" />
-          <h3>Diseño UI</h3>
-        </div>
-        <div class="item">
-          <img src="./images/check.png" alt="check" />
-          <h3>Desarrollo web</h3>
-        </div>
-        <div class="item">
-          <img src="./images/check.png" alt="check" />
-          <h3>Diseño UX</h3>
-        </div>
-        <div class="item">
-          <img src="./images/check.png" alt="check" />
-          <h3>Desarrollo movile</h3>
-        </div>
-        <div class="item">
-          <img src="./images/check.png" alt="check" />
-          <h3>Metodologías Ágiles</h3>
+        <div class="items">
+          <div class="item">
+            <img src="./images/check.png" alt="check" />
+            <h3>Diseño web</h3>
+          </div>
+          <div class="item">
+            <img src="./images/check.png" alt="check" />
+            <h3>Diseño UI</h3>
+          </div>
+          <div class="item">
+            <img src="./images/check.png" alt="check" />
+            <h3>Desarrollo web</h3>
+          </div>
+          <div class="item">
+            <img src="./images/check.png" alt="check" />
+            <h3>Diseño UX</h3>
+          </div>
+          <div class="item">
+            <img src="./images/check.png" alt="check" />
+            <h3>Desarrollo movile</h3>
+          </div>
+          <div class="item">
+            <img src="./images/check.png" alt="check" />
+            <h3>Metodologías Ágiles</h3>
+          </div>
         </div>
       </section>
       <section class="portafolio">
         <h2>Portafolio</h2>
-        <div>
+        <div class="items">
           <img src="./images/portaf-1.png" alt="Portafolio Proyecto 1" />
           <img src="./images/portaf-2.png" alt="Portafolio Proyecto 2" />
           <img src="./images/portaf-3.png" alt="Portafolio Proyecto 3" />
@@ -116,7 +118,7 @@
       </section>
       <section class="clientes">
         <h2>Clientes</h2>
-        <div>
+        <div class="items">
           <img src="./images/cliente-1.png" alt="Cliente 1" />
           <img src="./images/cliente-2.png" alt="Cliente 2" />
           <img src="./images/cliente-3.png" alt="Cliente 3" />
@@ -126,11 +128,27 @@
       <section class="contacto">
         <h2>Contacto</h2>
         <form>
-          <input type="text" placeholder="Nombre">
-          <input type="text" placeholder="Apellido">
-          <input type="text" placeholder="Email">
-          <input type="text" placeholder="Teléfono">
-          <textarea name="Descipción" placeholder="Descripción" id="" cols="30" rows="10"></textarea>
+          
+            <div>
+              <input type="text" placeholder="Nombre" />
+            </div>
+            <div>
+              <input type="text" placeholder="Apellido" />
+            </div>
+            <div>
+              <input type="text" placeholder="Email" />
+            </div>
+            <div>
+              <input type="text" placeholder="Teléfono" />
+            </div>
+          
+          <textarea
+            name="Descipción"
+            placeholder="Descripción"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
         </form>
       </section>
     </main>
