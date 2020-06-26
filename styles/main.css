@@ -131,7 +131,7 @@ services
   width: wrap;
 }
 /*
-portfolio
+portafolio
 */
 .portafolio{
   background-color: #ffd233;
@@ -227,4 +227,130 @@ contact
   background-color: #233451;
   border: 1px solid #233451;
   cursor: pointer;
+}
+/*TABLET*/
+@media (max-width: 860px) {
+  /*globals*/
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  .my-skills,
+  .services,
+  .portafolio,
+  .clients,
+  .contact {
+    padding: 40px;
+  }
+
+  /*banner*/
+  .banner h2 {
+    right: 52px;
+    bottom: 40px;
+    text-align: center;
+  }
+}
+/*TABLET SMALL // CELLPHONES LARGE*/
+@media (max-width: 780px) {
+  /*globals*/
+  h1 {
+    color: red;
+    font-size: 4.4rem;
+  }
+}
+/*// CELLPHONES MEDIUM*/
+@media (max-width: 620px) {
+  /*globals*/
+  .my-skills,
+  .services,
+  .portafolio,
+  .clients,
+  .contact {
+    padding: 20px;
+  }
+
+  /*banner*/
+  .banner h2 {
+    font-size: 2rem;
+    padding: 10px;
+    right: auto;
+  }
+
+  /*my-skills*/
+  .my-skills h2 {
+    margin-bottom: 10px;
+  }
+
+  .my-skills .item {
+    width: 100%;
+  }
+
+  .my-skills .item:nth-child(odd),
+  .my-skills .item:nth-child(even) {
+    padding: 0;
+  }
+}
+/*// CELLPHONES SMALL*/
+@media (max-width: 480px) {
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  /*banner*/
+  .banner h1 {
+    left: 10px;
+    top: 10px;
+    width: auto;
+    font-size: 1.8rem;
+    color: black;
+  }
+
+  .banner h2 {
+    font-size: 1.8rem;
+    right: 52px;
+    bottom: 20px;
+  }
+
+  /*services*/
+  .services h2 {
+    margin-bottom: 30px;
+  }
+
+  .services .items div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /*portafolio*/
+  .portafolio h2 {
+    margin-bottom: 20px;
+  }
+
+  .portafolio .items div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /*clients*/
+  .clientes h2 {
+    margin-bottom: 20px;
+  }
+
+  .clientes .items div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /*contact*/
+  .contact h2 {
+    margin-bottom: 20px;
+  }
+
+  .contact input {
+    width: 100%;
+  }
 }
